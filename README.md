@@ -1,27 +1,30 @@
 # HitmanGO_like
-
 ## Classes
-
 **BP_Player** :
-Contient le pion joueur.
+Represents the player pawn.
 
 **BP_PlayerController** :
-Contient la logique de déplacement du joueur, mais aussi sert de GameManager.
+Handles the player's movement logic and partially serves as the GameManager alongside BP_LevelGameMode.
 
-**BP_Node** : Une node.
+**BP_LevelGameMode** :
+Works in conjunction with BP_PlayerController to manage overall game logic.
 
-**BP_Nazgul** : Une IA qui va chase le joueur dès que celui-ci aura activé l'anneau.
+**BP_Node** :
+Represents a node or point on the grid.
 
-**BP_Orc** : Une IA qui poursuivra le joueur dès que celui-ci entrera dans son champs de vision et si l'anneau n'est pas activé.
+**BP_Nazgul** :
+An AI that chases the player as soon as invisibility is activated.
 
-**BP_Ring** : Un collectible qui permettra d'activer l'anneau.
+**BP_Orc** :
+An AI that pursues the player when they enter its field of vision.
 
-**BP_Wall** : Un mur qui bloquera la vision des Orcs et les mouvements du joueur.
+**BP_Ring** :
+A collectible that activates invisibility, making the player undetectable by Orcs.
 
-## Tester le prototype
+**BP_Wall** :
+A wall that blocks the Orcs' vision and restricts player movement.
 
-- La carte de test se trouve dans :
-Content\HitmanGO_like\Maps\Dev\Level1.
+## Testing the Prototype
+- Test Map : Located at Content\HitmanGO_like\Maps\Dev\Level1.
 
-- Contrôles :
-Pour déplacer le personnage, cliquez sur une node avec la souris.
+- Controls : To move the character, click on a node with the mouse.
