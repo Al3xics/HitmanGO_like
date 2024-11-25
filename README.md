@@ -16,7 +16,7 @@ Contient la logique de déplacement du joueur, mais aussi sert de GameManager.
 
 **BP_Ring** : Un collectible qui permettra d'activer l'anneau.
 
-**BP_Wall** : Un mur qui bloquera la vision des Orcs et les mouvements des joueurs.
+**BP_Wall** : Un mur qui bloquera la vision des Orcs et les mouvements du joueur.
 
 ## Tester le prototype
 
